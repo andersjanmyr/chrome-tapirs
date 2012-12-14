@@ -4,7 +4,7 @@
 "use strict";
 
 var req = new XMLHttpRequest();
-req.open( "GET", "http://tapirs.herokuapp.com/facts/1", true);
+req.open( "GET", "http://tapirs.herokuapp.com/facts/random", true);
 req.onload = showTapir;
 req.send(null);
 
