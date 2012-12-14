@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "An extension for accessing tapirs.herokuapp.com",
   "browser_action": {
-    "default_icon": "tapir.png"
+    "default_icon": "tapir-icon.png"
   },
   "permissions": [
     "http://tapirs.herokuapp.com/"
