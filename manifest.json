@@ -1,8 +1,8 @@
 {
   "name": "Chrome Tapirs",
-  "version": "0.1",
+  "version": "1.0",
   "manifest_version": 2,
-  "description": "An extension for accessing tapirs.herokuapp.com",
+  "description": "Chrome Tapirs gives you a random tapir fact every time the icon is clicked.",
   "browser_action": {
     "default_icon": "tapir-icon.png",
     "default_popup": "index.html"
