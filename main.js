@@ -12,7 +12,8 @@ function showTapir() {
     console.log(req);
     var text = JSON.parse(req.responseText).fact;
     var node = document.createTextNode(text);
-    document.body.appendChild(node);
+    var panel = document.getElementById('fact');
+    panel.appendChild(node);
 }
 
 

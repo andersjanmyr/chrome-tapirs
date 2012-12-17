@@ -1,6 +1,15 @@
 body {
+    background-color: black;
+}
+
+#fact {
+    background-color: white;
+    color: black;
     min-width: 100px;
     overflow-x: hidden;
     border-radius: 8px;
+    padding: 6px;
+    margin: 16px 12px;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
