@@ -6,6 +6,7 @@
 var req = new XMLHttpRequest();
 req.open( "GET", "http://tapirs.herokuapp.com/facts/random", true);
 req.onload = showTapir;
+req.onerror = showError;
 req.send(null);
 
 function showTapir() {
@@ -16,4 +17,9 @@ function showTapir() {
     panel.appendChild(node);
 }
 
+function showError() {
+    var node = document.createTextNode('Unable to contact the Tapir server!');
+    var panel = document.getElementById('fact');
+    panel.appendChild(node);
+}
 
