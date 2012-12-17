@@ -1,11 +1,18 @@
 body {
     background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: Gadget, sans-serif;
 }
 
 #fact {
     background-color: white;
     color: black;
-    min-width: 100px;
+    min-width: 140px;
     overflow-x: hidden;
     border-radius: 8px;
     padding: 6px;
