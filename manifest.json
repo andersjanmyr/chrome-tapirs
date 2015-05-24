@@ -1,6 +1,6 @@
 {
   "name": "Tapir Facts",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Tapir Facts gives you a random tapir fact every time the icon is clicked.",
   "browser_action": {
@@ -8,6 +8,6 @@
     "default_popup": "index.html"
   },
   "permissions": [
-    "http://tapirs.herokuapp.com/"
+    "http://tapirs.janmyr.com/"
   ]
 }

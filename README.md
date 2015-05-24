@@ -1,4 +1,4 @@
 ## Chrome Tapirs Extenstion
 
-An Chrome extension to access http://tapir.herokuapp.com.
+An Chrome extension to access http://tapirs.janmyr.com.
 
